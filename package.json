@@ -1,0 +1,30 @@
+{
+  "name": "api_share_picture",
+  "version": "1.0.0",
+  "description": "api share picture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimitri34g/api_share_picture.git"
+  },
+  "author": "georgiadis dimitri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimitri34g/api_share_picture/issues"
+  },
+  "homepage": "https://github.com/Dimitri34g/api_share_picture#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3"
+  }
+}
