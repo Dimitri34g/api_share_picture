@@ -24,7 +24,7 @@ app.get("/", (req, res, next) => {
 });
 
 app.use("/User", userRoutes);
-app.use("/Picture", pictureRoutes);
+app.use("/Photo", pictureRoutes);
 
 app.listen(process.env.PORT, () => {
   console.log(`Server is running on port ${process.env.PORT} `);

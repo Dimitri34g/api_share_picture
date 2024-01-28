@@ -7,15 +7,22 @@ const pictureSchema = new Schema({
     required: true,
     unique: true,
   },
-  description: {
-    type: String,
-    required: false,
-  },
-  path: {
+  filepath: {
     type: String,
     required: true,
     unique: true,
-    match: /^(.*\/)?([^/]+)\.(png|jpg|jpeg|gif|bmp|svg|webp)$/i,
+  },
+  webviewPath: {
+    type: String,
+    required: true,
+  },
+  latitude: {
+    type: Number,
+    required: false,
+  },
+  longitude: {
+    type: Number,
+    required: false,
   },
   date: {
     type: Date,
